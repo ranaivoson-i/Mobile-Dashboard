@@ -3,6 +3,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
+
 app.get('/api/data', (req, res) =>{
     res.json([
         {title: "carte 1", content: "Contenu mobile-first"},
